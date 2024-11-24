@@ -1,0 +1,48 @@
+.container {
+	padding: 120px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.item-lists {
+	width: 100%;
+	max-width: 375px;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.item-lists > h1 {
+	font-size: 18px;
+	padding: 12px;
+	margin: 12px 0;
+}
+
+.item {
+	border-radius: 20px;
+	padding: 12px;
+	transition: 0.3s; /* 렌더링될 때 부드럽게 렌더링 됨 */
+}
+
+.item :hover {
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.item > h2 {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.4;
+	margin: 4px 0;
+}
+
+.item img {
+	float: left;
+	border-radius: 4px;
+	margin-right: 8px;
+}
+.clear {
+	clear: both;
+}

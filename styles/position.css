@@ -1,0 +1,26 @@
+.static {
+	position: static;
+	left: 80px;
+}
+/* 기본 사항으로 변화 없음 */
+
+.relative {
+	position: relative;
+	left: 80px;
+}
+/* 원래 있어야 될 위치에서 상대적으로 위치를 이동 */
+/* padding 값 고려 (padding값 만큼 띄움) */
+
+.absolute {
+	position: absolute;
+	left: 80px;
+}
+/* position:relative값을 가진 부모 기준으로 80px 떨어진 곳에 위치를 잡음 */
+/* relative 부모를 만들기 위해 wrapper를 만든다 */
+/* padding 값 고려하지 않음 */
+
+.fixed {
+	position: fixed;
+	left: 80px;
+}
+/* 뷰포트를 기준으로 위치 이동, 위치 고정 */
